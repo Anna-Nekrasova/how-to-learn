@@ -202,7 +202,6 @@
 }
 
 .feynman__link {
-  position: relative;
   color: #2f80ed;
   position: absolute;
   top: 50%;
@@ -227,7 +226,7 @@
   padding-top: 90px;
   padding-bottom: 90px;
   position: relative;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .section-title_theme_dark {
