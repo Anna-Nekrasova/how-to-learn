@@ -124,7 +124,8 @@
 }
 
 .digits {
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-title {
@@ -177,7 +178,9 @@
   background-color: #f2f2f2;
   height: 890px;
   position: relative;
-  padding: 100px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
 }
 
 .feynman__title {
@@ -267,9 +270,10 @@
   padding-top: 60px;
   min-height: 350px;
   display: flex;
+  box-sizing: border-box;
 }
 
-.footer__column {
+.footer__columns {
   color: white;
   width: 90%;
   margin: 0 auto 40px auto;
@@ -277,8 +281,11 @@
   justify-content: space-between;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
+}
+
+.footer__column_content_copyright {
   flex-direction: column;
   flex-basis: 711px;
   justify-content: space-between;
@@ -297,12 +304,10 @@
 }
 
 .footer__column_content_info {
-  display: flex;
   display: block;
 }
 
 .footer__column_content_social {
-  display: flex;
   display: block;
 }
 
